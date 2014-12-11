@@ -1,0 +1,12 @@
+# Maven #
+target/
+bin/
+
+# IDEA #
+.idea/
+*.iml
+
+# Eclipse #
+.settings/
+.classpath
+.project
