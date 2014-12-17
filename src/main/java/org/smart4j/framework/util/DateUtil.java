@@ -4,6 +4,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import org.apache.commons.lang.time.DateUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,7 +14,7 @@ import org.slf4j.LoggerFactory;
  * @author huangyong
  * @since 1.0
  */
-public class DateUtil {
+public class DateUtil extends DateUtils {
 
     private static final Logger logger = LoggerFactory.getLogger(DateUtil.class);
 
